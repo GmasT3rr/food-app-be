@@ -2,12 +2,12 @@
   "name": "food-app-be",
   "version": "1.0.0",
   "description": "Food-app backend",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --exec ts-node src/server/server.ts",
+    "dev": "nodemon --exec ts-node src/server.ts",
     "build": "tsc",
-    "start": "node dist/server/server.js"
+    "start": "node dist/server.js"
   },
   "author": "Lucas Ramallo",
   "license": "ISC",
